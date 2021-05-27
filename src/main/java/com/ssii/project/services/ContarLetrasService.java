@@ -1,6 +1,9 @@
 package com.ssii.project.services;
 
-public class ContarVyC {
+import org.springframework.stereotype.Service;
+
+@Service
+public class ContarLetrasService {
 
     public static boolean esVocal(char letra) {
 
