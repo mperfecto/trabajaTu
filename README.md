@@ -7,7 +7,7 @@ Este deberá usar un servidor de base de datos (PostgreSQL) y tendrá que estar 
 La aplicación web tendrá que tener las siguientes funcionalidades:
 
 
-1. [ ] Cuando un cliente acceda a la dirección http://localhost:8080/contar/XXXX
+1. [x] Cuando un cliente acceda a la dirección http://localhost:8080/contar/XXXX
 
 
     Nos devolverá una página web con el número de vocales y el numero de consonantes que tiene la palabra XXXX pasada por la URL. 
