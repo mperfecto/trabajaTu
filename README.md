@@ -43,7 +43,6 @@ http://localhost:8080/traduce/Hola que tal
 
     Nos devolverá la frase Hola que tal (o cualquiera que se le pase como parámetro) traducida del español al ingles.
     
-    Para tal fin, vamos a usar un API de traducción translated.net
-Ejemplo de uso
-
-https://api.mymemory.translated.net/get?q=Hola&langpair=es|en
+    Para tal fin, vamos a usar un API de traducción translated.net. Ejemplo de uso:
+    
+    https://api.mymemory.translated.net/get?q=Hola&langpair=es|en
