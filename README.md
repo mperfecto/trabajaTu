@@ -46,3 +46,13 @@ http://localhost:8080/traduce/Hola que tal
     Para tal fin, vamos a usar un API de traducción translated.net. Ejemplo de uso:
     
     https://api.mymemory.translated.net/get?q=Hola&langpair=es|en
+    
+    
+### Tecnología usada
+
+- Lenguaje: Java
+- Framework: Spring Boot
+- BD: PostgreSQL
+- ORM: JPA
+- Servidor web y servidor de base de datos: Heroku 
+
