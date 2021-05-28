@@ -14,13 +14,12 @@ public class ProjectBDService {
     @Autowired
     ProjectRepository projectRepository;
 
-    public ProjectModel guardarJugador(ProjectModel modeloDatos){
-        return projectRepository.save(modeloDatos);
-    }
-
-    public ArrayList<ProjectModel> obtenerJugadores(){
+    public ArrayList<ProjectModel> obtenerJugadores() {
         return (ArrayList<ProjectModel>) projectRepository.findAll();
     }
 
+    public ProjectModel guardarJugador(ProjectModel jugador){
+        return projectRepository.save(jugador);
+    }
 
 }

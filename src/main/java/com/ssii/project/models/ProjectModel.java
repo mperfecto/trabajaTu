@@ -73,7 +73,7 @@ public class ProjectModel {
 
     @Override
     public String toString() {
-        return "Datos jugador [nombre=" + nombre + ", apellido=" + apellido + ", dorsal=" + dorsal + "]";
+        return "Datos jugador [nombre= " + nombre + ", apellido= " + apellido + ", dorsal= " + dorsal + ", id= " + id + "]";
     }    
 
 }
