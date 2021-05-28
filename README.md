@@ -37,7 +37,7 @@ http://localhost:8080/BBBB
     La transformación que hay que hacer la decides tu. (comprueba que no hagas lo mismo que otros compañeros)
 
 
-5. [ ] Cuando un cliente acceda a la dirección:
+5. [x] Cuando un cliente acceda a la dirección:
 http://localhost:8080/traduce/Hola que tal
 
 
