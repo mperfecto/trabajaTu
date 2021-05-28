@@ -29,7 +29,7 @@ http://localhost:8080/listar
     Se mostrará una pagina web con la lista de todos los datos almacenados en la tabla anterior de la base de datos
 
 
-4. [ ] Cuando el cliente acceda a la dirección:
+4. [x] Cuando el cliente acceda a la dirección:
 http://localhost:8080/BBBB
 
 
