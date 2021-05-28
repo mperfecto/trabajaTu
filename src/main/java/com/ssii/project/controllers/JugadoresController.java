@@ -5,19 +5,19 @@ import java.text.MessageFormat;
 import com.ssii.project.models.ProjectModel;
 import com.ssii.project.services.ProjectBDService;
 
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@Controller
+@RestController
 public class JugadoresController {
     
     @Autowired
     ProjectBDService projectBDService;
     
-    @GetMapping("guardar")
+    @RequestMapping("/guardar")
     @PostMapping("/guardar")
     public String mensajeQuery(@RequestParam String nombre,@RequestParam String apellido,@RequestParam int dorsal) {
 
