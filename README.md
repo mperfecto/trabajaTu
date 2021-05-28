@@ -13,7 +13,7 @@ La aplicación web tendrá que tener las siguientes funcionalidades:
     Nos devolverá una página web con el número de vocales y el numero de consonantes que tiene la palabra XXXX pasada por la URL. 
 
 
-2. [ ] 
+2. [x] 
 Cuando un cliente acceda a la dirección:
 http://localhost:8080/guarda?DATO1=XXXX&DATO2=YYYY&DATO3=ZZZZ&DATON=NNNN  ....
 
@@ -22,7 +22,7 @@ http://localhost:8080/guarda?DATO1=XXXX&DATO2=YYYY&DATO3=ZZZZ&DATON=NNNN  ....
 Los datos a pasar y a guardar los decides tú. (comprueba que no pases los mismos datos que tus compañeros)
 
 
-3. [ ] Cuando el cliente acceda a la dirección
+3. [x] Cuando el cliente acceda a la dirección
 http://localhost:8080/listar
 
 
